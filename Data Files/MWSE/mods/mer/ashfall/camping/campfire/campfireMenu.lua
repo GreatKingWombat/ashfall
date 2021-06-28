@@ -37,6 +37,7 @@ local buttonMapping = {
     ["Campfire"] = {
         "addFirewood",
         "lightFire",
+        "lightFireMagic",
         "addSupports",
         "removeSupports",
         "addGrill",
