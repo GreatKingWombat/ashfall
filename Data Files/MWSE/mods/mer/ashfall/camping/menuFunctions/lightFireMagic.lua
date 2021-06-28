@@ -6,7 +6,8 @@ return {
         return (
             not campfire.data.isLit and
             campfire.data.fuelLevel and
-            campfire.data.fuelLevel > 0.5
+            campfire.data.fuelLevel > 0.5 and
+            tes3.mobilePlayer:getSkillValue(tes3.skill.destruction) >= 25
         )
     end, 
     callback = function(campfire)
